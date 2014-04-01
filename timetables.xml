@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CCM Software Services, timetables.xml, Created Mon Oct 03 14:43:49 BST 2005 -->
+<!--<!DOCTYPE timetable-system SYSTEM "timetables.dtd">-->
+<timetable-system xmlns='http://www.ccmsoftware.com/timetables'
+                  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+                  xsi:schemaLocation='http://www.ccmsoftware.com/timetables timetables.xsd'>
+    <!-- Timetable Definitions -->
+    <timetable-type tt-type="lecturer" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="module" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+       <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="room" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+       <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="room" ttstylename="Booking" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="siteroomcode" alttext="Room" fgcolour="#062F98" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="bookedby" alttext="Booked By" fgcolour="#c901e1" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="time" alttext="Time" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="Weeks" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="date" alttext="Date" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="bookingid" alttext="Booking Id" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="Event Id" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+		<cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="course" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="class" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+      <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="student" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+       <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="department" ttstylename="default" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="room" ttstylename="masterroom" bgcolour="#FFFFC0" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+       <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="lecturer" ttstylename="masterlecturer" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="module" ttstylename="mastermodule" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="student" ttstylename="masterstudent" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+       <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="student" ttstylename="studentnoevent" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="student" ttstylename="studentenrolment" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="module" ttstylename="modulenoevent" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="course" ttstylename="coursenoevent" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#940AA8" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#3300CC" bgcolour="#ffffff" maxlength="50" intcellborder="false" />
+        <cell identifier="eventtype" alttext="" fgcolour="#E32198" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="lecturer" alttext="" fgcolour="#069810" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#DC3C4B" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="details" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#177F23" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="eventid" alttext="" fgcolour="#ffffff" bgcolour="#336699" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    <timetable-type tt-type="lecturer" ttstylename="schoolteacher" bgcolour="#ffffff" fgcolour="#000000" starttime="480" finishtime="1320" startday="0" finishday="7" >
+        <cell identifier="time" alttext="" fgcolour="#008000" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="module" alttext="" fgcolour="#987E06" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="room" alttext="" fgcolour="#0000ff" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+        <cell identifier="weeks" alttext="" fgcolour="#C000C0" bgcolour="#ffffff" maxlength="0" intcellborder="false" />
+    </timetable-type>
+    
+    <!-- Timetable Associations -->
+    <tt-association logintype="superuser">
+        <supported-type tt-type="lecturer" ttstylename="default" dispname="Lecturer" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="default" dispname="Module" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="default" dispname="Room" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="course" ttstylename="default" dispname="Course" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="class" ttstylename="default" dispname="Class group" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="default" dispname="Student" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="department" ttstylename="default" dispname="Department" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="masterroom" dispname="Master Room" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="lecturer" ttstylename="masterlecturer" dispname="Master Lecturer" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="masterstudent" dispname="Master Student" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="mastermodule" dispname="Master Module" master="true" selfonly="false" tcellborder="true" />
+    </tt-association>
+    <tt-association logintype="timetabler">
+        <supported-type tt-type="lecturer" ttstylename="default" dispname="Lecturer" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="default" dispname="Student" master="false" selfonly="false" tcellborder="true" />        
+        <supported-type tt-type="module" ttstylename="default" dispname="Module" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="default" dispname="Room" master="false" selfonly="false" tcellborder="true" />
+     <!--   <supported-type tt-type="course" ttstylename="default" dispname="Course" master="false" selfonly="false" tcellborder="true" />-->
+        <supported-type tt-type="class" ttstylename="default" dispname="Class group" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="department" ttstylename="default" dispname="Department" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="masterroom" dispname="Master Room" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="lecturer" ttstylename="masterlecturer" dispname="Master Lecturer" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="masterstudent" dispname="Master Student" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="mastermodule" dispname="Master Module" master="true" selfonly="false" tcellborder="true" />
+    </tt-association>
+    <tt-association logintype="lecturer">
+        <supported-type tt-type="lecturer" ttstylename="default" dispname="Lecturer" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="mastermodule" dispname="Master Module" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="default" dispname="Module" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="default" dispname="Room" master="false" selfonly="false" tcellborder="true" />
+    <!--    <supported-type tt-type="course" ttstylename="default" dispname="Course" master="false" selfonly="false" tcellborder="true" /> -->
+        <supported-type tt-type="class" ttstylename="default" dispname="Class group" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="default" dispname="Student" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="department" ttstylename="default" dispname="Department" master="false" selfonly="false" tcellborder="true" />
+         <supported-type tt-type="room" ttstylename="masterroom" dispname="Master Room" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="lecturer" ttstylename="masterlecturer" dispname="Master Lecturer" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="masterstudent" dispname="Master Student" master="true" selfonly="false" tcellborder="true" />
+    </tt-association>
+    <tt-association logintype="student">
+        <supported-type tt-type="student" ttstylename="studentnoevent" dispname="Student" master="false" selfonly="true" tcellborder="true" />
+        <supported-type tt-type="class" ttstylename="default" dispname="Class group" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="modulenoevent" dispname="Module" master="false" selfonly="false" tcellborder="true" />
+      <!--  <supported-type tt-type="course" ttstylename="coursenoevent" dispname="Course" master="false" selfonly="false" tcellborder="true" /> -->
+        <supported-type tt-type="lecturer" ttstylename="default" dispname="Lecturer" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="default" dispname="Room" master="false" selfonly="false" tcellborder="true" />
+    </tt-association>
+    <tt-association logintype="studentcontact">
+        <supported-type tt-type="student" ttstylename="studentnoevent" dispname="Student" master="false" selfonly="false" tcellborder="true" />
+    </tt-association>
+    <tt-association logintype="contact">
+        <supported-type tt-type="lecturer" ttstylename="default" dispname="Lecturer" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="default" dispname="Module" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="default" dispname="Room" master="false" selfonly="false" tcellborder="true" />
+     <!--   <supported-type tt-type="course" ttstylename="default" dispname="Course" master="false" selfonly="false" tcellborder="true" /> -->
+        <supported-type tt-type="class" ttstylename="default" dispname="Class group" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="default" dispname="Student" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="department" ttstylename="default" dispname="Department" master="false" selfonly="false" tcellborder="true" />
+    </tt-association>
+    <tt-association logintype="fblrb">
+        <supported-type tt-type="fblrb" ttstylename="default" dispname="fblrb" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="mastermodule" dispname="Master Module" master="true" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="module" ttstylename="default" dispname="Module" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="room" ttstylename="default" dispname="Room" master="false" selfonly="false" tcellborder="true" />
+      <!--  <supported-type tt-type="course" ttstylename="default" dispname="Course" master="false" selfonly="false" tcellborder="true" /> -->
+        <supported-type tt-type="class" ttstylename="default" dispname="Class group" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="student" ttstylename="default" dispname="Student" master="false" selfonly="false" tcellborder="true" />
+        <supported-type tt-type="department" ttstylename="default" dispname="Department" master="false" selfonly="false" tcellborder="true" />
+ </tt-association>
+</timetable-system>
